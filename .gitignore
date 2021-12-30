@@ -1,0 +1,43 @@
+# Python3 Venv
+*env/
+
+# Python
+__pycache__/
+
+# Vscode
+.vscode/
+.idea/
+
+# Python Cache
+*.pyc
+
+# Vscode
+
+# Log file
+*.log
+.idea
+
+# Installer logs
+pip-log.txt
+
+.project
+.pydevproject
+.vscode
+.sublime-*
+*~
+*.swp
+*.swo
+*#*
+.directory
+*.jpg
+*.pdf
+*.html
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
