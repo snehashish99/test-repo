@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+    test:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: test-img
+        container_name: test
+        volumes:
+            - .:/app
+        ports:
+            - 8000:8000
